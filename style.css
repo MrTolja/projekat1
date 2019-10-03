@@ -1,0 +1,290 @@
+header {
+    width: 80%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+header img {
+    height: 70px;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0529e6;
+}
+
+.main_menu {
+    width: 80%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0529e6;
+    border-radius: 20px;
+}
+
+.main_menu ul {
+}
+
+.main_menu li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 17px;
+    margin-left: 20px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.main_menu a {
+    text-align: center;
+}
+
+.main_menu a:hover {
+    background-color: #000000;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+#login {
+    float: right;
+}
+
+a #login {
+    text-align: center;
+}
+
+a:hover #login {
+    background-color: #000000;
+}
+
+.welcome {
+    display: flex;
+    width: 80%;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(real.jpg);
+    background-size: cover;
+    margin-top: 20px;
+    border-bottom: 5px solid #0529e6;
+    border-top: 5px solid #0529e6;
+    border-radius: 20px;
+}
+
+.welcome h1 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.welcome p {
+    width: 50%;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+.welcome img {
+    position: relative;
+    height: 400px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.line {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.btns {
+    display: inline-flex;
+}
+
+
+
+.button2 {
+    height: 30px;
+    width: 220px;
+    background-color: #0529e6;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 50px;
+    padding-top: 7px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.button1 {
+    height: 30px;
+    width: 220px;
+    background-color: #0529e6;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 7px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+#about {
+    display: flex;
+    width: 80%;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 5px solid #0529e6;
+    border-top: 5px solid #0529e6;
+    border-radius: 20px;
+}
+
+.about-text {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.about-text p {
+    font-size: 18px;
+}
+
+.about-img img {
+    float: right;
+    width: 60%;
+    margin-top: 5%;
+    margin-right: 100px;
+}
+
+#madridista {
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(madridista.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 5px solid #0529e6;
+    border-top: 5px solid #0529e6;
+    margin-top: 1%;
+    border-radius: 20px;
+}
+
+.becomemadrid {
+    width: 30%;
+    margin-top: 15%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.button3 {
+    height: 30px;
+    width: 220px;
+    background-color: #0529e6;
+    padding-top: 7px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 20%;
+}
+
+#contact {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 5px solid #0529e6;
+    border-top: 5px solid #0529e6;
+    margin-top: 1%;
+    background-color: #348ceb;
+    border-radius: 20px;
+}
+
+.map {
+    width: 50%;
+    align-content: center;
+}
+
+.mapouter {
+    margin-left: 10%;
+}
+
+.contact-info {
+    margin-top: 6%;
+}
+
+.contact-info input {
+    width: 90%;
+    margin-bottom: 1%;
+}
+
+.contact-info textarea {
+    width: 90%;
+    margin-bottom: 1%;
+}
+
+.button4 {
+    height: 30px;
+    width: 220px;
+    background-color: #0529e6;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.contact-info a {
+    width: 30%;
+}
+
+footer {
+    width: 80%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0529e6;
+    border-radius: 15px;
+}
+
+footer ul {
+    text-align: center;
+    color: #ffffff;
+}
+
+footer li {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+footer a:hover {
+    background-color: #000000;
+    padding-top: 11px;
+    padding-bottom: 16px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 5px;
+    color: #a8f7c3;
+}
